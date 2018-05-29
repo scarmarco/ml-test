@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff159;
+}
+
+.nav-logo {
+  width: 39px;
+  height: 28px;
+}
+
+.nav-search {
+  display: flex;
+  width: 50%;
+  height: 34px;
+  margin: 8px 15px;
+  border: 1px solid rgb(241, 241, 241);
+}
+
+.nav-input {
+  flex: 1;
+  height: 100%;
+  background-color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 6px 10px;
+  color: gray;
+}
+
+.nav-button {
+  width: 34px;
+  height: 100%;
+  border: none;
+  border-radius: 2px;
+  background-color: #f4f8ff;
+  color: darkgray;
+}
